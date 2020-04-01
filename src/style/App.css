@@ -1,0 +1,25 @@
+* {
+    font-family: monospace;
+}
+
+.App {
+    height: 100vh;
+}
+
+.number {
+    background-color: rgb(70, 68, 68);
+}
+
+.operation {
+    background-color: rgb(218, 131, 32);
+}
+
+.operation, .number, #clear, #displayer, #delete {
+    border: 1px solid white;
+}
+
+.row div {
+    cursor: pointer;
+    font-size: 30px;
+    color: whitesmoke;
+}
