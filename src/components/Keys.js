@@ -2,7 +2,7 @@ import React from 'react';
 
 const Keys = (props) => {
     return (
-        <div className="container w-25" onClick={props.handleClick}>
+        <div className="container w-25" onClick={props.handleClick} id="keys">
             <div className="row">
                 <div className="col-3 text-center bg-danger" id="clear">
                     AC

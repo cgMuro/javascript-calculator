@@ -19,7 +19,7 @@ function Calculator() {
 
             if (typed === '+' || typed === '-' || typed === '*' || typed === '÷') {
                 setInput(input);
-                setExpression(prevExpression => prevExpression.slice(0, prevExpression.length - 2) + typed);
+                setExpression(prevExpression => prevExpression.slice(0, prevExpression.length - 1) + typed);
             } else {
                 setInput('');
                 setExpression('');
@@ -34,7 +34,7 @@ function Calculator() {
         } else if (typed === '=') {
             try {
                 setInput(evaluate(input));
-                setExpression(`${input} = `);
+                setExpression(`${input}=`);
             } catch (error) {
                 setInput('Error');
                 setTimeout(() => {

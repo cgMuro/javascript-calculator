@@ -8,7 +8,7 @@ function Display(props) {
 
     return (
         <div className="container w-25 bg-dark p-1" style={style} id="displayer">
-            <div className="d-flex justify-content-end align-items-end">
+            <div className="d-flex justify-content-end align-items-end mr-2" id="expression">
                 {expression}
             </div>
             <div className="d-flex justify-content-end align-items-end p-2" id="display">
