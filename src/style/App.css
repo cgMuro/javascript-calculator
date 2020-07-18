@@ -16,8 +16,22 @@
     background-color: rgba(218, 131, 32, 0.1);
 }
 
-.operation, .number, #clear, #displayer, #delete {
+.operation, .number, #clear, #delete {
     border: 1px solid rgb(9, 10, 10);
+}
+
+#keys {
+    border-top: 1px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#displayer {
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 1px solid black;
 }
 
 .row div {
